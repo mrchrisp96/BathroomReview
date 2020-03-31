@@ -201,10 +201,10 @@ private void PrintBody (PrintWriter out)
  *  Overloads PrintBody (out,lhs,rhs,rslt) to print a page
  *  with blanks in the form fields.
 ********************************************************* */
-private void PrintBody (PrintWriter out)
-{
-   PrintBody(out);
-}
+//private void PrintBody (PrintWriter out)
+//{
+//   PrintBody(out);
+//}
 
 /** *****************************************************
  *  Prints the bottom of the HTML page.
