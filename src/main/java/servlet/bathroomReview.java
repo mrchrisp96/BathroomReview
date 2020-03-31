@@ -11,8 +11,7 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.WebServlet;
 
 @WebServlet( name = "Assignment6", urlPatterns = {"/assignment6"} )
-public class bathroomReview extends HttpServlet
-{
+public class bathroomReview extends HttpServlet {
 
 // Location of servlet.
 static String Domain  = "bathroomreviewresults.herokuapp.com";
@@ -64,7 +63,7 @@ private void PrintBody (PrintWriter out, String lhs, String rhs, String rslt)
     out.println("  <title>");
     out.println("    GMU Bathroom Reviewer");
     out.println("  </title>");
-    out.println("  <style type="text/css">");
+    out.println("  <style type=\"text/css\">");
     out.println("  h1{");
     out.println("    text-align: center;");
     out.println("    font-size:3em;");
