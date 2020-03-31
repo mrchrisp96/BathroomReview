@@ -203,7 +203,7 @@ private void PrintBody (PrintWriter out)
 ********************************************************* */
 private void PrintBody (PrintWriter out)
 {
-   PrintBody(out, "", "", "");
+   PrintBody(out);
 }
 
 /** *****************************************************
