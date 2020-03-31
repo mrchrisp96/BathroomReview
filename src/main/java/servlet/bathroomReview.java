@@ -31,7 +31,7 @@ public void doPost (HttpServletRequest request, HttpServletResponse response)
 {
    response.setContentType("text/html");
    PrintWriter out = response.getWriter();
-   PrintBody(out, lhsStr, rhsStr, rslt.toString());
+   PrintBody(out);
    PrintTail(out);
 }  // End doPost
 
@@ -56,7 +56,7 @@ public void doGet (HttpServletRequest request, HttpServletResponse response)
  *  Prints the <BODY> of the HTML page with the form data
  *  values from the parameters.
 ********************************************************* */
-private void PrintBody (PrintWriter out, String lhs, String rhs, String rslt)
+private void PrintBody (PrintWriter out)
 {
     out.println("<html>");
     out.println("<head>");
